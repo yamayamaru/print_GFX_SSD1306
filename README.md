@@ -9,7 +9,7 @@ https://github.com/yamayamaru/yama_2_GFX_SSD1306
 表示できる文字はASCIIコードの英数字、記号のみです。  
 文字の画面スクロールの機能は実装してません。  
   
-print_GFX_ILI9341はMicroPython用のライブラリであるmicropython-ili9341を参考にして作成しました  
+print_GFX_SSD1306はMicroPython用のライブラリであるmicropython-ili9341を参考にして作成しました  
 https://github.com/jeffmer/micropython-ili9341  
   
 print_GFX_SSD1306はyama_2_GFX_SSD1306を継承していてSSD1306に文字を描画するためのライブラリです。  
