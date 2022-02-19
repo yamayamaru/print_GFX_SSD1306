@@ -38,5 +38,8 @@ SSD1306_SPI_RST、SSD1306_SPI_DCの番号はGPIOの番号です。
 ソースコードの例ではSPIのポート番号は下記のようにspi1を指定してます  
 `#define SSD1306_SPI_PORT        spi1`
   
+`double    conversion_factor = 3.3 / (4095.0);`
+の部分ですが3.3となっている値を実際に計測したVrefの値にしないと誤差が出ます  
+かなりの誤差が出るので要注意です。  
   
 ![pico pinout](https://github.com/yamayamaru/print_GFX_SSD1306/blob/main/img/raspberrypipicopinout.jpg)  
